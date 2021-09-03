@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/18465a58-4e3f-413e-bc32-383a96878de4/resourceGroups/NodeMarketWise/providers/Microsoft.Web/sites/excelNodeMW",
+    "appService.deploySubpath": "."
+}

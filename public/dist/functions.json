@@ -1,0 +1,54 @@
+{
+    "functions": [
+        {
+            "description": "A function which sums two, or optionally three, numbers.",
+            "id": "MW_GET_FROM_CLOUD",
+            "name": "MW_GET_FROM_CLOUD",
+            "parameters": [
+                {
+                    "description": "First number to add.",
+                    "name": "symbol",
+                    "type": "string"
+                }
+            ],
+            "result": {
+                "dimensionality": "matrix",
+                "type": "string"
+            }
+        },
+        {
+            "description": "A function which sums two, or optionally three, numbers.",
+            "id": "MW_WRITE_TO_CLOUD",
+            "name": "MW_WRITE_TO_CLOUD",
+            "parameters": [
+                {
+                    "description": "First number to add.",
+                    "name": "asOf",
+                    "type": "string"
+                },
+                {
+                    "description": "second number to add.",
+                    "name": "name",
+                    "type": "string"
+                },
+                {
+                    "description": "third number to add.",
+                    "name": "symbol",
+                    "type": "string"
+                },
+                {
+                    "description": "fourth number to add.",
+                    "name": "Last",
+                    "type": "string"
+                },
+                {
+                    "description": "...",
+                    "dimensionality": "matrix",
+                    "name": "SelectedRange",
+                    "type": "number"
+                }
+            ],
+            "result": {}
+        }
+    ]
+}
